@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
 .App {
   text-align: center;
 }
@@ -9,12 +13,14 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 50s linear;
+    margin-bottom: 50px;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
+  /* background-color: #faf6ca; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +31,24 @@
 }
 
 .App-link {
-  color: #61dafb;
+  /* background-color: #faf6ca; */
+  margin-left: 100px;
+  margin-right: 100px;
+  color: black;
+  font-size: small;
+  margin-top: 10%;
+  /* font-family: 'DM Serif Display', serif; */
+  font-family: 'Bungee Outline', cursive;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  background-color: #faf6ca;
+  font-size: medium;
+  font-family: 'Bungee Shade', cursive;
+  color: rgb(80, 80, 80);
+  transition: 0.3s linear;
+  /* font-family: 'Bungee Outline', cursive; */
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +59,4 @@
     transform: rotate(360deg);
   }
 }
+
