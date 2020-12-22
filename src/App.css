@@ -44,7 +44,8 @@
 
 .App-link:hover {
   background-color: #faf6ca;
-  font-size: medium;
+  /* padding: 3px; */
+  font-size: 50%;
   font-family: 'Bungee Shade', cursive;
   color: rgb(80, 80, 80);
   transition: 0.3s linear;
