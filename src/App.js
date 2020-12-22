@@ -1,4 +1,5 @@
 import logo from './circle.png';
+import background from './background-gradient.png';
 import './App.css';
 
 
@@ -13,6 +14,7 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
         >
+          <img src={logo} className="small-logo" alt="bullet" />
           Github
         </a>
         <a
@@ -20,18 +22,21 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           >
+          <img src={logo} className="small-logo" alt="bullet" />
             Resumé
         </a>
         <a
         className="App-link"
           href="https://reactjs.org"
           >
+          <img src={logo} className="small-logo" alt="bullet" />
             Projects
         </a>
         <a
         className="App-link"
           href="https://reactjs.org"
           >
+          <img src={logo} className="small-logo" alt="bullet" />
             Profile
         </a>
         </nav>
