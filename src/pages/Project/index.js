@@ -1,18 +1,9 @@
 import React from "react";
+import CardProject from "../../components/CardProject";
 
 function Project() {
     return(
-        <h1>Project</h1>
-    )
-
-// export default [
-//     {
-//         name: "___",
-//         github: "___",
-//         description: "___",
-//         img: "___"
-//     }
-// ]
-
+        <CardProject />
+        )
 }
 export default Project;

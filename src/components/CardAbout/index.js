@@ -1,17 +1,14 @@
 import React from "react";
 
-function CardAbout(props) {
+function CardAbout() {
 	return (
-		<div class="row full info hide">
 			<div>
 				<img
 					class="responsive"
 					id="photo"
-					src="./assets/linkedinprofileimg.jpeg"
+					src="../../../linkedinprofileimg.jpeg"
 					alt="me"
 				/>
-			</div>
-			<div>
 				<p>
 					Hello! I am an Architect transitioning into a full-stack web
 					developer. I currently reside in Ridgewood, Queens, NY and I work at
@@ -19,7 +16,6 @@ function CardAbout(props) {
 					skillset to pursue a pivot into the developer world.
 				</p>
 			</div>
-		</div>
 	);
 }
 
