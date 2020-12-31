@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
 .App {
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -14,14 +15,14 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 50s linear;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 
 .App-header {
   background-color: white;
   /* background-color: #faf6ca; */
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,22 +31,10 @@
   color: white;
 }
 
-.App-link {
-  /* background-color: #faf6ca; */
-  margin-left: 100px;
-  margin-right: 100px;
-  color: black;
-  font-size: small;
-  margin-top: 10%;
-  /* font-family: 'DM Serif Display', serif; */
-  font-family: 'Bungee Outline', cursive;
-  text-decoration: none;
-}
-
 .App-link:hover {
   background-color: #faf6ca;
   /* padding: 3px; */
-  font-size: 50%;
+  font-size: 105%;
   font-family: 'Bungee Shade', cursive;
   color: rgb(80, 80, 80);
   transition: 0.3s linear;
@@ -59,9 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.small-logo {
-  width: 10px;
-  margin-right: 2px;
 }

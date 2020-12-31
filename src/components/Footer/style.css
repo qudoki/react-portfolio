@@ -1,11 +1,6 @@
 footer {
     font-size: x-small;
     margin: auto;
-    align-self: center;
-}
-
-.footer-background {
-    width: 100%;
-    align-self: center;
-    margin: auto;
+    text-align: center;
+    color: rgb(187, 187, 187);
 }
