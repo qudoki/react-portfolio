@@ -1,0 +1,15 @@
+.text {
+    text-align: center;
+    font-size: small;
+    color: grey;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+.responsive {
+    width: 20%;
+    border-radius: 5%;
+    margin-top: 10%;
+}

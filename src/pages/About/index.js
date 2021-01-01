@@ -3,8 +3,6 @@ import React from "react";
 import CardAbout from "../../components/CardAbout"
 
 function About() {
-	console.log("here!");
-
 	return (
 		<CardAbout />
 	);
