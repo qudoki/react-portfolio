@@ -27,7 +27,7 @@ function CardProject() {
 						</span>
 						<span>
 							<button>
-								<a target="_blank" rel="noreferrer" href={project.demo}>
+								<a target="_blank" rel="noreferrer" href={project.repo}>
 									Repo
 								</a>
 							</button>
