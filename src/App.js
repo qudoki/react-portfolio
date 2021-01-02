@@ -1,5 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import "./App.css";
 import About from "./pages/About";
 import Project from "./pages/Project";
@@ -10,7 +11,7 @@ import Nav from "./components/Nav";
 function App() {
 	document.title = "QDK React Portfolio";
 	return (
-		<Router basename = {window.location.pathname || "/react-portfolio/"}>
+		<BrowserRouter basename = {window.location.pathname || ""}>
 			<div className="App">
 				<Nav />
 				<Switch>
@@ -26,7 +27,7 @@ function App() {
 				</Switch>
 			</div>
 			<Footer />
-		</Router>
+		</BrowserRouter>
 	);
 }
 
