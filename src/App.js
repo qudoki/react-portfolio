@@ -11,7 +11,7 @@ import Nav from "./components/Nav";
 function App() {
 	document.title = "QDK React Portfolio";
 	return (
-		<BrowserRouter basename={window.location.pathname || ""}>
+		<BrowserRouter basename={process.env.PUBLIC_URL || ""}>
 			<div className="App">
 				<Nav />
 				<Switch>
