@@ -17,7 +17,7 @@ function CardAbout() {
 					developer. I currently reside in New York, NY and I work at
 					a design firm in Manhattan. I am actively building upon my visualization and design
 					skillset to pursue a pivot into the world of software engineering. I am currently learning: Unity, Processing P5.js, Python, Javascript, and C++. Feel free to reach out via email for collaborations or inquiries. 
-					Check out my <a href="https://www.linkedin.com/in/dong-qian/" target="_blank">LinkedIn profile</a>.
+					Check out my <a href="https://www.linkedin.com/in/dong-qian/" target="_blank" rel="noreferrer">LinkedIn profile</a>.
 				</p>
 			</div>
 	);
