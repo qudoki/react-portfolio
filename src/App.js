@@ -9,9 +9,10 @@ import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 
 function App() {
-	document.title = "react-portfolio";
+	document.title = "QDK React Portfolio";
 	return (
-		<BrowserRouter basename={process.env.PUBLIC_URL || ""}>
+		<BrowserRouter basename={process.env.PUBLIC_URL || "/react-portfolio"}>
+		{/* <BrowserRouter basename={window.location.pathname || "/react-portfolio"}> */}
 			<div className="App">
 				<Nav />
 				<Switch>
