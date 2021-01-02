@@ -10,7 +10,7 @@ import Nav from "./components/Nav";
 function App() {
 	document.title = "QDK React Portfolio";
 	return (
-		<Router basename ="/react-portfolio">
+		<Router basename = {window.location.pathname || "/react-portfolio"}>
 			<div className="App">
 				<Nav />
 				<Switch>
