@@ -7,6 +7,9 @@ import Project from "./pages/Project";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
+const Landing = () => (
+	<App />
+)
 
 function App() {
 	document.title = "QDK React Portfolio";
@@ -16,7 +19,7 @@ function App() {
 			<div className="App">
 				<Nav />
 				<Switch>
-					<Route exact path="/" className="App-link" component={App}>
+					<Route exact path="/" className="App-link" component={Landing}>
 						<Header />
 					</Route>
 					<Route exact path="/about" component={About} className="App-link">
