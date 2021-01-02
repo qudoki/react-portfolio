@@ -15,13 +15,13 @@ function App() {
 			<div className="App">
 				<Nav />
 				<Switch>
-					<Route exact path="/" className="App-link" component={App}>
+					<Route exact path="/react-portfolio" className="App-link" component={App}>
 						<Header />
 					</Route>
-					<Route exact path="/about" component={About} className="App-link">
+					<Route exact path="/react-portfolio/about" component={About} className="App-link">
 						<About />
 					</Route>
-					<Route exact path="/project" component={Project} className="App-link">
+					<Route exact path="/react-portfolio/project" component={Project} className="App-link">
 						<Project />
 					</Route>
 				</Switch>
